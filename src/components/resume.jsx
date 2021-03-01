@@ -1,7 +1,9 @@
 import React, { Fragment } from 'react';
+import Button from './ui/button'
 
 import {
-    Grid
+    Grid,
+    Link
 } from '@material-ui/core'
 
 const Resume = () => {
@@ -12,7 +14,9 @@ const Resume = () => {
                     1 {/* Images */}
                 </Grid>
                 <Grid container item xs={6}>
-                    2 {/* Buttons */}
+                    <Link href="/">
+                        <Button>Download CV</Button>
+                    </Link>
                 </Grid>
             </Grid>
         </Fragment>
