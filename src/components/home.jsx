@@ -2,6 +2,7 @@ import React from 'react';
 import Button from "./ui/button"
 
 import {
+    Box,
     Grid,
     Link,
     Typography
@@ -9,6 +10,7 @@ import {
 
 const Home = () => {
     return ( 
+        <Box mb={8}>
             <Grid container>
                 <Grid container item xs={6}>
                     <Typography variant="h6" component="p">
@@ -19,6 +21,7 @@ const Home = () => {
                 </Grid>
                 <Grid container item xs={6} alignItems="center"></Grid>
             </Grid>
+        </Box>
      );
 }
  

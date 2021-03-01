@@ -1,46 +1,69 @@
 import React, { Fragment } from 'react';
+import styled from '@emotion/styled';
 
 import {
+    Box,
     Grid,
     Typography
 } from '@material-ui/core'
 
+const IconSize = styled.img`
+    width: 10%;
+    vertical-align: middle;
+    margin-right: 5px;
+`;
+
 const Technologies = () => {
     return ( 
-        <Fragment> 
-            <Typography variant="h4" component="h2" align="center">
-                Technologies
-            </Typography>
+        <Box mb={8}>
+            <Box mb={4}> 
+                <Typography variant="h4" component="h2" align="center">
+                    Technologies
+                </Typography>
+            </Box>
+            <Box mb={3}> 
+                <Grid container>
+                        <Grid container item xs={4} justify="center">        
+                            <Typography variant="h5" component="h2">
+                                    Front-end
+                            </Typography>
+                        </Grid>
+                        <Grid container item xs={4} justify="center">
+                            <Typography variant="h5" component="h2">
+                                    Back-end
+                            </Typography>
+                        </Grid>
+                        <Grid container item xs={4} justify="center">
+                            <Typography variant="h5" component="h2">
+                                    Other knowledge
+                            </Typography>
+                        </Grid>
+                </Grid>
+            </ Box> 
             <Grid container>
-                <Grid container item xs={4} justify="center">
-                    <Typography variant="h5" component="h2">
-                            Front-end
-                    </Typography>
+                <Grid container item xs={4}>
+                    <Typography><IconSize src="https://ionicframework.com/docs/assets/icons/logo-react-icon.png"></IconSize>React</Typography>
+                    <Typography><IconSize src="http://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png"></IconSize>Redux</Typography>
+                    <Typography><IconSize src="https://mercedesdavila.github.io/img/js.png"></IconSize>JavaScript</Typography>
+                    <Typography><IconSize src="https://cdn1.iconfinder.com/data/icons/social-media-logos-7/64/css-3-512.png"></IconSize>CSS</Typography>
+                    <Typography><IconSize src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/html5-512.png"></IconSize>HTML</Typography>
                 </Grid>
-                <Grid container item xs={4} justify="center">
-                    <Typography variant="h5" component="h2">
-                            Back-end
-                    </Typography>
+                <Grid container item xs={4}>
+                    <Typography><IconSize src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/node-512.png"></IconSize>Node.js</Typography>
+                    <Typography><IconSize src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/359/full/expressjslogo.png"></IconSize>Express</Typography>
+                    <Typography><IconSize src="https://ciberseguridadahora.files.wordpress.com/2018/03/mongodb-jpgg.jpg?w=323&h=323"></IconSize>MongoDB</Typography>
+                    <Typography><IconSize src="https://img.icons8.com/color/452/firebase.png"></IconSize>Firebase</Typography>
+                    <Typography><IconSize src="https://image.flaticon.com/icons/png/512/2165/2165004.png"></IconSize>API Rest</Typography>
                 </Grid>
-                <Grid container item xs={4} justify="center">
-                    <Typography variant="h5" component="h2">
-                            Other knowledge
-                    </Typography>
+                <Grid container item xs={4}>
+                    <Typography><IconSize src="https://equinusocio.gallerycdn.vsassets.io/extensions/equinusocio/vsc-material-theme/32.5.0/1581769762885/Microsoft.VisualStudio.Services.Icons.Default"></IconSize>VS Code</Typography>
+                    <Typography><IconSize src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"></IconSize>Git</Typography>
+                    <Typography><IconSize src="https://i.dlpng.com/static/png/473931_thumb.png"></IconSize>Bootstrap</Typography>
+                    <Typography><IconSize src="https://iconape.com/wp-content/files/gm/82643/svg/next-js.svg"></IconSize>Next.js</Typography>
+                    <Typography><IconSize src="https://img.icons8.com/color/452/material-ui.png"></IconSize>Material UI</Typography>
                 </Grid>
             </Grid>
-            <Grid container>
-                <Grid container item xs={4}>
-
-                    <div>1</div>
-                </Grid>
-                <Grid container item xs={4}>
-                    <div>2</div>
-                </Grid>
-                <Grid container item xs={4}>
-                    <div>3</div>
-                </Grid>
-            </Grid>
-        </Fragment>
+        </Box>
      );
 }
  

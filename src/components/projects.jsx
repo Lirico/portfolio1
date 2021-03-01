@@ -1,13 +1,14 @@
 import React, { Fragment } from 'react';
 
 import {
+    Box,
     Grid,
     Typography
 } from '@material-ui/core'
 
 const Projects = () => {
     return ( 
-        <Fragment> 
+        <Box mb={8}> 
             <Typography variant="h4" component="h2" align="center">
                 My Projects
             </Typography>
@@ -22,7 +23,7 @@ const Projects = () => {
                     3 {/* Project 3 */}
                 </Grid>
             </Grid>
-        </Fragment>
+        </Box>
      );
 }
  

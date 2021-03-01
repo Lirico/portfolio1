@@ -2,13 +2,14 @@ import React, { Fragment } from 'react';
 import ShowImage from './ui/showimages'
 
 import {
+    Box,
     Grid,
     Typography
 } from '@material-ui/core'
 
 const AboutMe = () => {
     return (
-        <Fragment> 
+        <Box mb={8}> 
             <Typography variant="h4" component="h2" align="center">
                 About Me
             </Typography>
@@ -25,7 +26,7 @@ const AboutMe = () => {
                     </Typography>
                 </Grid>
             </Grid>
-        </Fragment>
+        </Box>
      );
 }
  

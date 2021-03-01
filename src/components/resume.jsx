@@ -5,13 +5,14 @@ import ShowImage from './ui/showimages'
 import styled from '@emotion/styled';
 
 import {
+    Box,
     Grid,
     Link
 } from '@material-ui/core'
 
 const Resume = () => {
     return ( 
-        <Fragment> 
+        <Box mb={8}>
             <Grid container>
                 <Grid container item xs={7} justify="center">
                     <ShowImage src="https://alisondrury.com/wp-content/uploads/2016/09/square-photos-CV-02.jpg" alt=""></ShowImage>
@@ -22,7 +23,7 @@ const Resume = () => {
                     </Link>
                 </Grid>
             </Grid>
-        </Fragment>
+        </Box>
      );
 }
  

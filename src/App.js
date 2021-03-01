@@ -9,17 +9,23 @@ import Projects from './components/projects';
 import ContactMe from './components/contactMe';
 import Footer from './components/footer';
 
+import {
+  Box,
+} from '@material-ui/core'
+
 
 function App() {
   return (
     <Fragment>
       <Navbar />
-      <Home />
-      <AboutMe />
-      <Technologies />
-      <Resume />
-      <Projects />
-      <ContactMe />
+      <Box pl={3} pr={3}>
+        <Home />
+        <AboutMe />
+        <Technologies />
+        <Resume />
+        <Projects />
+        <ContactMe />
+      </Box>
       <Footer />
     </Fragment>
   );
