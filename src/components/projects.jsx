@@ -8,7 +8,7 @@ import {
 const Projects = () => {
     return ( 
         <Fragment> 
-            <Typography variant="h4" component="h2">
+            <Typography variant="h4" component="h2" align="center">
                 My Projects
             </Typography>
             <Grid container>

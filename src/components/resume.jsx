@@ -1,5 +1,8 @@
 import React, { Fragment } from 'react';
 import Button from './ui/button'
+import ShowImage from './ui/showimages'
+
+import styled from '@emotion/styled';
 
 import {
     Grid,
@@ -10,10 +13,10 @@ const Resume = () => {
     return ( 
         <Fragment> 
             <Grid container>
-                <Grid container item xs={6}>
-                    1 {/* Images */}
+                <Grid container item xs={7} justify="center">
+                    <ShowImage src="https://alisondrury.com/wp-content/uploads/2016/09/square-photos-CV-02.jpg" alt=""></ShowImage>
                 </Grid>
-                <Grid container item xs={6}>
+                <Grid container item xs={5} direction="column" justify="center" >
                     <Link href="/">
                         <Button>Download CV</Button>
                     </Link>

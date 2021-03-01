@@ -13,7 +13,6 @@ const Button = styled.a`
     :hover {
         color: crimson;
         background: none;
-    }
 `;
  
 export default Button;

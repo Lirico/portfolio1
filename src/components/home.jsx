@@ -13,9 +13,7 @@ const Home = () => {
                 <Grid container item xs={6}>
                     <Typography variant="h6" component="p">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Magnam labore et libero necessitatibus porro saepe, 
-                        maxime dolorem quasi! 
-                        Voluptatibus aut rem neque cum ut est voluptate magni aspernatur eligendi inventore.
+                        Commodi, impedit laborum! In unde quia quo. Modi assumenda ea provident tempore.
                     </Typography>
                     <Link href="/"><Button>Hire me!</Button></Link>
                 </Grid>
