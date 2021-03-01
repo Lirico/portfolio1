@@ -9,9 +9,11 @@ import {
 const Projects = () => {
     return ( 
         <Box mb={8}> 
-            <Typography variant="h4" component="h2" align="center">
-                My Projects
-            </Typography>
+            <Box mb={4}>
+                <Typography variant="h4" component="h2" align="center">
+                    My Projects
+                </Typography>
+            </Box>
             <Grid container>
                 <Grid container item xs={4}>
                     1 {/* Project 1 */}
