@@ -21,7 +21,7 @@ const Navbar = () => {
                     <Link href="#" style={{paddingRight:"15px"}}>Technologies</Link>
                     <Link href="#" style={{paddingRight:"15px"}}>Download CV</Link>
                     <Link href="#" style={{paddingRight:"15px"}}>Proyects</Link>
-                    <Link href="#" style={{paddingRight:"15px"}}>Contact Me</Link>
+                    <Link href="#" style={{paddingRight:"15px"}}>Contact</Link>
                 </Box>
             </Box>
         </nav>

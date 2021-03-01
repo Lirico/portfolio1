@@ -15,13 +15,13 @@ const Projects = () => {
                 </Typography>
             </Box>
             <Grid container>
-                <Grid container item xs={4}>
+                <Grid container item sm={4}>
                     1 {/* Project 1 */}
                 </Grid>
-                <Grid container item xs={4}>
+                <Grid container item sm={4}>
                     2 {/* Project 2 */}
                 </Grid>
-                <Grid container item xs={4}>
+                <Grid container item sm={4}>
                     3 {/* Project 3 */}
                 </Grid>
             </Grid>

@@ -8,13 +8,13 @@ const Footer = () => {
     return ( 
         <Fragment> 
         <Grid container>
-            <Grid container item xs={4}>
+            <Grid container item sm={4}>
                 1 {/* nationality */}
             </Grid>
-            <Grid container item xs={4}>
+            <Grid container item sm={4}>
                 2 {/* email */}
             </Grid>
-            <Grid container item xs={4}>
+            <Grid container item sm={4}>
                 3 {/* social media */}
             </Grid>
         </Grid>
