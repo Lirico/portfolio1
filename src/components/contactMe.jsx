@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactMe = () => {
     return ( 
-        <div>Hola desde ContactMe</div>
+        <form>Contact Me</form>
      );
 }
  

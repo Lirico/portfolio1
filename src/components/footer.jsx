@@ -1,8 +1,24 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+
+import {
+    Grid
+} from '@material-ui/core'
 
 const Footer = () => {
     return ( 
-        <div>Hola desde Footer</div>
+        <Fragment> 
+        <Grid container>
+            <Grid container item xs={4}>
+                1 {/* nationality */}
+            </Grid>
+            <Grid container item xs={4}>
+                2 {/* email */}
+            </Grid>
+            <Grid container item xs={4}>
+                3 {/* social media */}
+            </Grid>
+        </Grid>
+    </Fragment>
      );
 }
  

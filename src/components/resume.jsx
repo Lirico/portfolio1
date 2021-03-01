@@ -1,8 +1,21 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+
+import {
+    Grid
+} from '@material-ui/core'
 
 const Resume = () => {
     return ( 
-        <div>Hola desde Resume</div>
+        <Fragment> 
+            <Grid container>
+                <Grid container item xs={6}>
+                    1 {/* Images */}
+                </Grid>
+                <Grid container item xs={6}>
+                    2 {/* Buttons */}
+                </Grid>
+            </Grid>
+        </Fragment>
      );
 }
  
