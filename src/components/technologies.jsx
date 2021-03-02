@@ -15,7 +15,7 @@ const IconSize = styled.img`
 
 const Technologies = () => {
     return ( 
-        <Box mb={8}>
+        <Box mb={8} id="technologies">
                 <Typography variant="h4" component="h2" align="center">
                     Technologies
                 </Typography>

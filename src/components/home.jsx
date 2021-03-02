@@ -10,9 +10,10 @@ import {
 } from '@material-ui/core'
 
 const BgImage = styled.div`
-    background: url("https://wallpaperaccess.com/full/915909.jpg") no-repeat center;
+    background: url("https://i.pinimg.com/originals/cc/4e/01/cc4e012fc8d96cbe52d99dd863743823.jpg") no-repeat center;
     color: #fff;
     margin-bottom: 3rem;
+    height: 100vh;
 `;
 
 

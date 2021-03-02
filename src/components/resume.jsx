@@ -10,7 +10,7 @@ import {
 
 const Resume = () => {
     return ( 
-        <Box mb={8}>
+        <Box mb={8} id="resume">
             <Grid container>
                 <Grid container item justify="center">
                     <ShowImage src="https://alisondrury.com/wp-content/uploads/2016/09/square-photos-CV-02.jpg" alt=""></ShowImage>

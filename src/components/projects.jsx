@@ -8,7 +8,7 @@ import {
 
 const Projects = () => {
     return ( 
-        <Box mb={8}> 
+        <Box mb={8} id="projects"> 
             <Box mb={4}>
                 <Typography variant="h4" component="h2" align="center">
                     My Projects

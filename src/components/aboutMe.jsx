@@ -9,7 +9,7 @@ import {
 
 const AboutMe = () => {
     return (
-        <Box mb={4}> 
+        <Box mb={4} id="aboutme"> 
             <Box mb={3}> 
                 <Typography variant="h4" component="h2" align="center">
                     About Me

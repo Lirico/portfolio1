@@ -10,17 +10,19 @@ import ContactMe from './components/contactMe';
 import Footer from './components/footer';
 
 
+
+
 function App() {
   return (
     <Fragment>
-      <Navbar />
-      <Home />
-      <AboutMe />
-      <Technologies />
-      <Resume />
-      <Projects />
-      <ContactMe />
-      <Footer />
+          <Navbar />
+          <Home />
+          <AboutMe />
+          <Technologies />
+          <Resume />
+          <Projects />
+          <ContactMe />
+          <Footer />
     </Fragment>
   );
 }

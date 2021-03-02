@@ -6,7 +6,7 @@ import {
 
 const ContactMe = () => {
     return ( 
-        <Box mb={8}>
+        <Box mb={8}id="contactme">
             <form>Contact Me</form>
         </Box>
      );
