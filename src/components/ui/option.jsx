@@ -7,8 +7,8 @@ const Option = styles.p`
     font-weight: 700;
     font-size: 1.1rem;
     transition: color 0.3s ease;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
     :hover {
         color: #0276FD; 

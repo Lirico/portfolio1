@@ -12,6 +12,7 @@ const Nav = styled.nav`
     position: fixed;
     width: 100%;
     transition: all 0.3s ease;
+    z-index: 99995;
 `;
 
 
