@@ -15,6 +15,7 @@ code {
 /* Scrolling navbar background */
 .bgactive {
   background-color: #0276FD;
+  transition: all 0.3s ease;
 }
 
 .optionhover {

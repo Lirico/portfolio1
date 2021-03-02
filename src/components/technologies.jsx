@@ -29,7 +29,7 @@ const Technologies = () => {
                         </Box >
                         <Box display="column"> 
                             <Typography component="p"><IconSize src="https://ionicframework.com/docs/assets/icons/logo-react-icon.png"></IconSize>React</Typography>
-                            <Typography component="p"><IconSize src="http://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png"></IconSize>Redux</Typography>
+                            <Typography component="p"><IconSize src="https://www.vergic.com/wpsitefiles_de3fxs/wp-content/uploads/2017/04/logo.png"></IconSize>Redux</Typography>
                             <Typography component="p"><IconSize src="https://mercedesdavila.github.io/img/js.png"></IconSize>JavaScript</Typography>
                             <Typography component="p"><IconSize src="https://cdn1.iconfinder.com/data/icons/social-media-logos-7/64/css-3-512.png"></IconSize>CSS</Typography>
                             <Typography component="p"><IconSize src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/html5-512.png"></IconSize>HTML</Typography>
@@ -62,7 +62,7 @@ const Technologies = () => {
                     <Box display="column"> 
                         <Typography><IconSize src="https://equinusocio.gallerycdn.vsassets.io/extensions/equinusocio/vsc-material-theme/32.5.0/1581769762885/Microsoft.VisualStudio.Services.Icons.Default"></IconSize>VS Code</Typography>
                         <Typography><IconSize src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"></IconSize>Git</Typography>
-                        <Typography><IconSize src="https://i.dlpng.com/static/png/473931_thumb.png"></IconSize>Bootstrap</Typography>
+                        <Typography><IconSize src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/480px-Bootstrap_logo.svg.png"></IconSize>Bootstrap</Typography>
                         <Typography><IconSize src="https://iconape.com/wp-content/files/gm/82643/svg/next-js.svg"></IconSize>Next.js</Typography>
                         <Typography><IconSize src="https://img.icons8.com/color/452/material-ui.png"></IconSize>Material UI</Typography>
                     </Box>
