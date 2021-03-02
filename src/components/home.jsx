@@ -29,7 +29,7 @@ const Home = () => {
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                 Commodi, impedit laborum! In unde quia quo. Modi assumenda ea provident tempore.
                             </Typography>
-                            <Link href="/"><Button>Hire me!</Button></Link>
+                            <Link href="#contactme"><Button>Hire me!</Button></Link>
                         </Box>
                     </Grid>
                     <Grid container item sm={6}></Grid>

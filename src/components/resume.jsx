@@ -16,7 +16,7 @@ const Resume = () => {
                     <ShowImage src="https://alisondrury.com/wp-content/uploads/2016/09/square-photos-CV-02.jpg" alt=""></ShowImage>
                 </Grid>
                 <Grid container item alignItems="center" justify="center">
-                    <Link href="/">
+                    <Link href="https://file.io/u8rOBEYPjBHO">
                         <Button>Download CV</Button>
                     </Link>
                 </Grid>
