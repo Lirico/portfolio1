@@ -13,7 +13,7 @@ import {
 
 const BgImage = styled.div`
     background: url(${Mario}) no-repeat center;
-    background-position: bottom;
+    background-position: 50% 95%;
     color: #fff;
     margin-bottom: 3rem;
     height: 100vh;
@@ -24,11 +24,13 @@ const BgImage = styled.div`
 const Home = () => {
     return (
         <BgImage> 
-            <Box mb={8} pb={40} pt={40}>
+            <Box mb={8} pb={57} pt={23}>
                 <Grid container>
-                    <Grid container item sm={6} alignItems="center">
+                    <Grid container item sm={6} alignItems="center" style={{textTransform:"uppercase"}}>
                         <Box pl={5} pr={5}>
-                            <Typography variant="h3" component="h1" style={{textTransform:"uppercase"}}>
+                            <Typography variant="h4" component="h1"
+                                className="titlefonts"
+                            >
                                 Matías Domínguez                           
                             </Typography>
                             <Box 
@@ -38,7 +40,7 @@ const Home = () => {
                                     width: "5rem"
                                 }}
                             ></Box>
-                            <Typography variant="h4" component="h1" style={{textTransform:"uppercase"}}>
+                            <Typography variant="h5" component="h1" style={{textTransform:"uppercase"}}>
                                 Front-end Developer                          
                             </Typography>
                             <Link href="#contactme"><Button>Hire me!</Button></Link>

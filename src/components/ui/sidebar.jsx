@@ -8,11 +8,10 @@ const Sidebar = styles.div`
         flex-direction: column;
         background-color: #0276FD;
         position: fixed;
-        height: 100%;
+        height: 100vh;
         width: 100%;
         margin-left: -1.5rem;
-        padding-top: 45rem;
-        padding-left: 0.5rem;
+        padding-top: 60rem;
         align-items: center;
     }
 `;
