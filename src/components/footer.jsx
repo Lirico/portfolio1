@@ -21,10 +21,10 @@ const FooterIcons = styled.img`
 
 const Footer = () => {
     return ( 
-        <Box pt={8} pb={4} style={{backgroundColor: "#0276FD"}}>
+        <Box pt={7} style={{backgroundColor: "#0276FD"}}>
             <Grid container>
                 <Grid container item sm={4} justify="center">
-                    <Box flexDirection="column" mb={3}>
+                    <Box flexDirection="column" mb={6}>
                         <Typography 
                             component="h3" 
                             style={{
@@ -39,7 +39,7 @@ const Footer = () => {
                     </Box>
                 </Grid>
                 <Grid container item sm={4} justify="center">
-                    <Box mb={3}>
+                    <Box mb={6}>
                         <Link href="#">
                             <Typography component="p" style={{fontWeight:"bold", color: "#fff"}}>
                                 <FooterIcons 
@@ -52,7 +52,7 @@ const Footer = () => {
                     </Box>
                 </Grid>
                 <Grid container item sm={4} justify="center">
-                    <Box mb={3}>
+                    <Box mb={6}>
                         <Link href="https://www.linkedin.com/in/dominguezmatiasadrian/">
                             <FooterIcons 
                                 src={Linkedin}
