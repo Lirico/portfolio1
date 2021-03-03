@@ -10,7 +10,7 @@ import {
 const IconSize = styled.img`
     width: 3rem;
     vertical-align: middle;
-    margin-right: 5px;
+    margin-right: 0.5rem;
 `;
 
 const Technologies = () => {

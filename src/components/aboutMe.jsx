@@ -1,5 +1,6 @@
 import React from 'react';
 import ShowImage from './ui/showImages'
+import MyPhoto from '../images/DSC_0074.jpg';
 
 import {
     Box,
@@ -17,15 +18,16 @@ const AboutMe = () => {
             </Box>
             <Grid container>
                     <Grid container item sm={6} justify="center" style={{marginBottom: "2rem"}}>
-                        <ShowImage src="https://i.pinimg.com/originals/cc/42/1c/cc421cda30d74ecbee9afa0f00a1f388.jpg" alt=""></ShowImage>
+                        <ShowImage src={MyPhoto} alt=""></ShowImage>
                     </Grid>
                 <Grid container item sm={6} alignItems="center" style={{marginBottom: "2rem"}}>
-                    <Box pl={4} pr={4} >
+                    <Box pl={4} pr={5} >
                         <Typography variant="h6" component="p">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            Molestiae perspiciatis iste corrupti magni, velit eaque cupiditate. 
-                            Vel aut deserunt odit sint accusamus modi necessitatibus accusantium alias eum corporis,
-                            itate quas tenetur possimus.
+                        I am passionate about technology and self-taught training. 
+                        I am looking forward to an opportunity where I could not 
+                        only put my acquired skills to the test, but to even expand 
+                        them and learn new ones. I specialize in React but I am highly 
+                        interested in learning React Native.
                         </Typography>
                     </Box>
                 </Grid>
