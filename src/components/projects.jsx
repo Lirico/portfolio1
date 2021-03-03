@@ -1,6 +1,10 @@
 import React from 'react';
 import ShowImage from './ui/showImages';
 
+import Project1 from '../images/project1.png';
+import Project2 from '../images/project2.png';
+import Project3 from '../images/project3.png';
+
 import {
     Box,
     Link,
@@ -21,35 +25,35 @@ const Projects = () => {
             </Box>
             <Box display="flex" justifyContent="center" flexWrap="wrap">
                 <Box mr={0.5} mb={0.5} className="project_image">
-                    <Link href="#">
+                    <Link href="https://kind-kare-aa9d8b.netlify.app">
                             <ShowImage className="image_img"
-                             src="https://www.esan.edu.pe/apuntes-empresariales/2018/10/02/1500x844_microsoft_project.jpg"
+                             src={Project1}
                             ></ShowImage>
                         <div className="image_overlay">
-                            <div className="image_title">Title 1</div>                              
-                            <p className="image_description">Lorem ipsum dolor sit.</p>
+                            <div className="image_title">Car insurance quote</div>                              
+                            <p className="image_description">Made in React</p>
                         </div>
                     </Link>
                 </Box>
                 <Box mr={0.5} mb={0.5} className="project_image">
-                    <Link href="#">
+                    <Link href="https://silly-babbage-8a0ffb.netlify.app">
                             <ShowImage className="image_img"
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS21CaCAt0_l_pubmg4P7wLHsLcX_Qw1dSQdQ&usqp=CAU"
+                                src={Project2}
                             ></ShowImage>
                         <div className="image_overlay">
-                            <div className="image_title">Title 2</div>                              
-                            <p className="image_description">Lorem ipsum dolor sit.</p>
+                            <div className="image_title">Cryptocurrency quote</div>                              
+                            <p className="image_description">Made in React</p>
                         </div>
                     </Link>
                 </Box>                
                 <Box mr={0.5} mb={0.5} className="project_image">
-                    <Link href="#">
+                    <Link href="https://adoring-lamport-49c7cf.netlify.app">
                             <ShowImage className="image_img"
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq9nOG0GBkEXd79ae7Q5AcvpKXX0IGJjTwRw&usqp=CAU"
+                                src={Project3}
                             ></ShowImage>
                         <div className="image_overlay">
-                            <div className="image_title">Title 3</div>                              
-                            <p className="image_description">Lorem ipsum dolor sit.</p>
+                            <div className="image_title">Beverage Finder</div>                              
+                            <p className="image_description">Made in React with Axios and Context</p>
                         </div>
                     </Link>
                 </Box>
