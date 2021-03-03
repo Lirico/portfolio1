@@ -41,7 +41,8 @@ const ContactMe = () => {
                                     fontWeight: "bold",
                                 }}
                             >
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quisquam suscipit, repudiandae, aspernatur accusantium illo nobis impedit eos maiores a culpa eveniet ipsum voluptatum ad, error dolor soluta quis nihil.
+                                If the answer is yes, please do not hesitate to contact me.
+                                You can do it through this form or also through an email or whatsapp.
                             </Typography>
                         </Box>
                     </Box>
@@ -87,6 +88,7 @@ const ContactMe = () => {
                                     borderRadius: "6px",
                                     height: "10rem",
                                     paddingLeft: "1rem",
+                                    paddingTop: "1rem",
                                     width: "100%"
                                 }}
                             ></textarea>

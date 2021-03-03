@@ -2,6 +2,8 @@ import React from 'react';
 import Button from './ui/button'
 import ShowImage from './ui/showImages'
 
+import CV from '../images/cvsquare.jpg';
+
 import {
     Box,
     Grid,
@@ -10,13 +12,13 @@ import {
 
 const Resume = () => {
     return ( 
-        <Box mb={8} id="resume">
+        <Box mb={12} id="resume">
             <Grid container>
                 <Grid container item justify="center">
-                    <ShowImage src="https://alisondrury.com/wp-content/uploads/2016/09/square-photos-CV-02.jpg" alt=""></ShowImage>
+                    <ShowImage src={CV} alt=""></ShowImage>
                 </Grid>
                 <Grid container item alignItems="center" justify="center">
-                    <Link href="https://file.io/u8rOBEYPjBHO">
+                    <Link href="https://srv-store4.gofile.io/download/ow5tgB/CVITen.pdf">
                         <Button>Download CV</Button>
                     </Link>
                 </Grid>

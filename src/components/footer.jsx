@@ -1,6 +1,11 @@
 import React from 'react';
-import styled from '@emotion/styled';
 
+import Whatsapp from '../images/whatsapp.png';
+import Linkedin from '../images/linkedin.png';
+import Github from '../images/github.png';
+import Gmail from '../images/gmail.png';
+
+import styled from '@emotion/styled';
 import {
     Box,
     Grid,
@@ -38,7 +43,8 @@ const Footer = () => {
                         <Link href="#">
                             <Typography component="p" style={{fontWeight:"bold", color: "#fff"}}>
                                 <FooterIcons 
-                                    src="https://image.flaticon.com/icons/png/512/220/220802.png" 
+                                    src={Whatsapp}
+                                    alt="whatsapp" 
                                 ></FooterIcons>
                                 +54 11 5006 3891 
                             </Typography>
@@ -47,19 +53,22 @@ const Footer = () => {
                 </Grid>
                 <Grid container item sm={4} justify="center">
                     <Box mb={3}>
-                        <Link href="#">
+                        <Link href="https://www.linkedin.com/in/dominguezmatiasadrian/">
                             <FooterIcons 
-                                src="http://cdn.onlinewebfonts.com/svg/img_80278.png" 
+                                src={Linkedin}
+                                alt="linkedin" 
                             ></FooterIcons>
                         </Link>
-                        <Link href="#">
+                        <Link href="https://github.com/Lirico">
                             <FooterIcons 
-                                src="https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png" 
+                                src={Github} 
+                                alt="github"
                             ></FooterIcons>
                         </Link>
-                        <Link href="#">
+                        <Link href="mailto:dominguezmatiasadrian@gmail.com">
                             <FooterIcons
-                                src="https://i.pinimg.com/originals/1b/3b/ec/1b3bec070f7bb1c007dbaaeafaeb21b7.png" 
+                                src={Gmail}
+                                alt="gmail" 
                             ></FooterIcons>
                         </Link>
                     </Box>

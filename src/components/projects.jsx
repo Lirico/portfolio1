@@ -9,11 +9,15 @@ import {
 
 const Projects = () => {
     return ( 
-        <Box mb={8} id="projects"> 
+        <Box mb={12} id="projects"> 
             <Box mb={4}>
-                <Typography variant="h4" component="h2" align="center">
-                    My Projects
-                </Typography>
+                <Box display="flex" justifyContent="center" alignItems="center">
+                    <Typography style={{  borderBottom: "solid 3px #0276FD", width: "1.5rem"}}></Typography>
+                    <Typography variant="h4" component="h2" align="center" style={{margin:"0 3px 0 3px"}}>
+                        My Proyects
+                    </Typography>
+                    <Typography style={{  borderBottom: "solid 3px #0276FD", width: "1.5rem"}}></Typography>
+                </Box>
             </Box>
             <Box display="flex" justifyContent="center" flexWrap="wrap">
                 <Box mr={0.5} mb={0.5} className="project_image">

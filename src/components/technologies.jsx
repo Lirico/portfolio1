@@ -1,6 +1,22 @@
 import React from 'react';
-import styled from '@emotion/styled';
 
+import ReactLogo from '../images/react.png';
+import Redux from '../images/redux.png';
+import Javascript from '../images/javascript.png';
+import Css from '../images/css.png';
+import Html from '../images/html.png';
+import Node from '../images/node.png';
+import Express from '../images/express.png';
+import MongoDB from '../images/mongo.png';
+import Firebase from '../images/firebase.png';
+import Api from '../images/api.png';
+import VisualCode from '../images/visualcode.png';
+import Git from '../images/git.png';
+import Bootstrap from '../images/bootstrap.png';
+import Next from '../images/next.png';
+import MaterialUi from '../images/materialui.png';
+
+import styled from '@emotion/styled';
 import {
     Box,
     Grid,
@@ -15,10 +31,14 @@ const IconSize = styled.img`
 
 const Technologies = () => {
     return ( 
-        <Box mb={8} id="technologies">
-                <Typography variant="h4" component="h2" align="center">
+        <Box mb={12} id="technologies">
+            <Box display="flex" justifyContent="center" alignItems="center">
+                <Typography style={{  borderBottom: "solid 3px #0276FD", width: "1.5rem"}}></Typography>
+                <Typography variant="h4" component="h2" align="center" style={{margin:"0 3px 0 3px"}}>
                     Technologies
                 </Typography>
+                <Typography style={{  borderBottom: "solid 3px #0276FD", width: "1.5rem"}}></Typography>
+            </Box>
             <Grid container>
                 <Grid container item sm={4} justify="center">
                     <Box display="column">
@@ -28,11 +48,11 @@ const Technologies = () => {
                             </Typography>
                         </Box >
                         <Box display="column"> 
-                            <Typography component="p"><IconSize src="https://ionicframework.com/docs/assets/icons/logo-react-icon.png"></IconSize>React</Typography>
-                            <Typography component="p"><IconSize src="https://www.vergic.com/wpsitefiles_de3fxs/wp-content/uploads/2017/04/logo.png"></IconSize>Redux</Typography>
-                            <Typography component="p"><IconSize src="https://mercedesdavila.github.io/img/js.png"></IconSize>JavaScript</Typography>
-                            <Typography component="p"><IconSize src="https://cdn1.iconfinder.com/data/icons/social-media-logos-7/64/css-3-512.png"></IconSize>CSS</Typography>
-                            <Typography component="p"><IconSize src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/html5-512.png"></IconSize>HTML</Typography>
+                            <Typography component="p"><IconSize src={ReactLogo}></IconSize>React</Typography>
+                            <Typography component="p"><IconSize src={Redux}></IconSize>Redux</Typography>
+                            <Typography component="p"><IconSize src={Javascript}></IconSize>JavaScript</Typography>
+                            <Typography component="p"><IconSize src={Css}></IconSize>CSS</Typography>
+                            <Typography component="p"><IconSize src={Html}></IconSize>HTML</Typography>
                         </Box>
                     </Box>
                 </Grid>
@@ -44,11 +64,11 @@ const Technologies = () => {
                         </Typography>
                     </Box>
                     <Box display="column"> 
-                        <Typography><IconSize src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/node-512.png"></IconSize>Node.js</Typography>
-                        <Typography><IconSize src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/359/full/expressjslogo.png"></IconSize>Express</Typography>
-                        <Typography><IconSize src="https://ciberseguridadahora.files.wordpress.com/2018/03/mongodb-jpgg.jpg?w=323&h=323"></IconSize>MongoDB</Typography>
-                        <Typography><IconSize src="https://img.icons8.com/color/452/firebase.png"></IconSize>Firebase</Typography>
-                        <Typography><IconSize src="https://image.flaticon.com/icons/png/512/2165/2165004.png"></IconSize>API Rest</Typography>
+                        <Typography><IconSize src={Node}></IconSize>Node.js</Typography>
+                        <Typography><IconSize src={Express}></IconSize>Express</Typography>
+                        <Typography><IconSize src={MongoDB}></IconSize>MongoDB</Typography>
+                        <Typography><IconSize src={Firebase}></IconSize>Firebase</Typography>
+                        <Typography><IconSize src={Api}></IconSize>API Rest</Typography>
                     </Box>
                 </Box>
                 </Grid>
@@ -60,11 +80,11 @@ const Technologies = () => {
                         </Typography>
                     </Box>
                     <Box display="column"> 
-                        <Typography><IconSize src="https://equinusocio.gallerycdn.vsassets.io/extensions/equinusocio/vsc-material-theme/32.5.0/1581769762885/Microsoft.VisualStudio.Services.Icons.Default"></IconSize>VS Code</Typography>
-                        <Typography><IconSize src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"></IconSize>Git</Typography>
-                        <Typography><IconSize src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/480px-Bootstrap_logo.svg.png"></IconSize>Bootstrap</Typography>
-                        <Typography><IconSize src="https://iconape.com/wp-content/files/gm/82643/svg/next-js.svg"></IconSize>Next.js</Typography>
-                        <Typography><IconSize src="https://img.icons8.com/color/452/material-ui.png"></IconSize>Material UI</Typography>
+                        <Typography><IconSize src={VisualCode}></IconSize>VS Code</Typography>
+                        <Typography><IconSize src={Git}></IconSize>Git</Typography>
+                        <Typography><IconSize src={Bootstrap}></IconSize>Bootstrap</Typography>
+                        <Typography><IconSize src={Next}></IconSize>Next.js</Typography>
+                        <Typography><IconSize src={MaterialUi}></IconSize>Material UI</Typography>
                     </Box>
                 </Box>
                 </Grid>

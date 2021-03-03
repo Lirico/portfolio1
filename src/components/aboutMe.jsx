@@ -10,11 +10,15 @@ import {
 
 const AboutMe = () => {
     return (
-        <Box mb={4} id="aboutme"> 
-            <Box mb={3}> 
-                <Typography variant="h4" component="h2" align="center">
-                    About Me
-                </Typography>
+        <Box mb={8} mt={12} id="aboutme"> 
+            <Box mb={3}>
+                <Box display="flex" justifyContent="center" alignItems="center">
+                    <Typography style={{  borderBottom: "solid 3px #0276FD", width: "1.5rem"}}></Typography> 
+                    <Typography variant="h4" component="h2" align="center" style={{margin:"0 3px 0 3px"}}>
+                        About Me
+                    </Typography>
+                    <Typography style={{  borderBottom: "solid 3px #0276FD", width: "1.5rem"}}></Typography> 
+                </Box>
             </Box>
             <Grid container>
                     <Grid container item sm={6} justify="center" style={{marginBottom: "2rem"}}>
@@ -23,11 +27,14 @@ const AboutMe = () => {
                 <Grid container item sm={6} alignItems="center" style={{marginBottom: "2rem"}}>
                     <Box pl={4} pr={5} >
                         <Typography variant="h6" component="p">
-                        I am passionate about technology and self-taught training. 
-                        I am looking forward to an opportunity where I could not 
-                        only put my acquired skills to the test, but to even expand 
-                        them and learn new ones. I specialize in React but I am highly 
-                        interested in learning React Native.
+                            Hello, I am Matías Domínguez and I am a Front-end Developer.
+                        </Typography>
+                        <Typography variant="h6" component="p">
+                            I am passionate about technology and self-taught training. 
+                            I am looking forward to an opportunity where I could not 
+                            only put my acquired skills to the test, but to even expand 
+                            them and learn new ones. I specialize in React but I am highly 
+                            interested in learning React Native.
                         </Typography>
                     </Box>
                 </Grid>

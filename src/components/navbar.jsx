@@ -5,6 +5,7 @@ import Sidebar from './ui/sidebar';
 
 import styled from '@emotion/styled';
 import MenuIcon from '@material-ui/icons/Menu';
+import CloseIcon from '@material-ui/icons/Close';
 import {
     Box,
     Link,
@@ -72,12 +73,24 @@ const Navbar = () => {
                                 <Link href="#contactme"><Option className={ navbar ? 'optionhover' : null }>Contact</Option></Link>
                             </Menu>
                         }    
-                        
-                    <NavIcon>
-                        <MenuIcon
-                            onClick={() => setToggle(!toggle)}
-                        />
-                    </NavIcon>
+                        { toggle 
+
+                            ?
+
+                            <NavIcon>
+                                <CloseIcon
+                                    onClick={() => setToggle(!toggle)}
+                                />
+                            </NavIcon>
+
+                            :
+
+                            <NavIcon>
+                                <MenuIcon
+                                    onClick={() => setToggle(!toggle)}
+                                />
+                            </NavIcon>
+                        }
                 </Box>
             </Nav>
      );
