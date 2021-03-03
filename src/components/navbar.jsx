@@ -33,7 +33,7 @@ const Navbar = () => {
                 <Box 
                     display="flex" 
                     justifyContent="space-between" 
-                    pl={3} pr={1} pt={2} pb={2}
+                    pl={3} pr={1} pt={1} pb={1}
                     alignItems="center"
                     className={ navbar ? 'bgactive' : null }
                 >
