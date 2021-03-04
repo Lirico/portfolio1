@@ -16,11 +16,11 @@ const Projects = () => {
         <Box mb={12} id="projects"> 
             <Box mb={4}>
                 <Box display="flex" justifyContent="center" alignItems="center">
-                    <Typography style={{  borderBottom: "solid 3px #0276FD", width: "1.5rem"}}></Typography>
-                    <Typography variant="h4" component="h2" align="center" style={{margin:"0 3px 0 3px"}}>
-                        My Proyects
+                    <Typography style={{  borderBottom: "solid 3px #00A901", width: "1.5rem"}}></Typography>
+                    <Typography variant="h4" component="h2" align="center" style={{margin:"0 3px 0 3px", fontWeight: "bold"}}>
+                        My Projects
                     </Typography>
-                    <Typography style={{  borderBottom: "solid 3px #0276FD", width: "1.5rem"}}></Typography>
+                    <Typography style={{  borderBottom: "solid 3px #00A901", width: "1.5rem"}}></Typography>
                 </Box>
             </Box>
             <Box display="flex" justifyContent="center" flexWrap="wrap">

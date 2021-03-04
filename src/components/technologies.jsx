@@ -33,17 +33,17 @@ const Technologies = () => {
     return ( 
         <Box mb={12} id="technologies">
             <Box display="flex" justifyContent="center" alignItems="center">
-                <Typography style={{  borderBottom: "solid 3px #0276FD", width: "1.5rem"}}></Typography>
-                <Typography variant="h4" component="h2" align="center" style={{margin:"0 3px 0 3px"}}>
+                <Typography style={{  borderBottom: "solid 3px #00A901", width: "1.5rem"}}></Typography>
+                <Typography variant="h4" component="h2" align="center" style={{margin:"0 3px 0 3px", fontWeight: "bold"}}>
                     Technologies
                 </Typography>
-                <Typography style={{  borderBottom: "solid 3px #0276FD", width: "1.5rem"}}></Typography>
+                <Typography style={{  borderBottom: "solid 3px #00A901", width: "1.5rem"}}></Typography>
             </Box>
             <Grid container>
                 <Grid container item sm={4} justify="center">
                     <Box display="column">
                         <Box mb={2} mt={5}>
-                            <Typography variant="h5" component="h2">
+                            <Typography variant="h5" component="h2" style={{fontWeight: "bold"}}>
                                 Front-end
                             </Typography>
                         </Box >
@@ -59,7 +59,7 @@ const Technologies = () => {
                 <Grid container item sm={4} justify="center">
                 <Box display="column">
                     <Box mb={2} mt={5}>
-                        <Typography variant="h5" component="h2">
+                        <Typography variant="h5" component="h2" style={{fontWeight: "bold"}}>
                             Back-end
                         </Typography>
                     </Box>
@@ -75,7 +75,7 @@ const Technologies = () => {
                 <Grid container item sm={4} justify="center">
                 <Box display="column">
                     <Box mb={2} mt={5}>
-                        <Typography variant="h5" component="h2">
+                        <Typography variant="h5" component="h2" style={{fontWeight: "bold"}}>
                             More skills
                         </Typography>
                     </Box>

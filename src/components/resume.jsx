@@ -18,7 +18,7 @@ const Resume = () => {
                     <ShowImage src={CV} alt=""></ShowImage>
                 </Grid>
                 <Grid container item alignItems="center" justify="center">
-                    <Link href="https://srv-store4.gofile.io/download/ow5tgB/CVITen.pdf">
+                    <Link href="https://drive.google.com/file/d/1hB3xxiXDiQlMZMO6Uhf6cW6ZLkcH7VKQ/view">
                         <Button>Download CV</Button>
                     </Link>
                 </Grid>

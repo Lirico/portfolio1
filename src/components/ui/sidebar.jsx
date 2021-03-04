@@ -6,7 +6,7 @@ const Sidebar = styles.div`
     
     @media screen and (max-width: 768px) {
         flex-direction: column;
-        background-color: #0276FD;
+        background-color: #00A901;
         position: fixed;
         height: 100vh;
         width: 100%;

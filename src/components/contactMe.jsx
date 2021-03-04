@@ -90,7 +90,7 @@ const ContactMe = () => {
                         <Box 
                             mb={5}
                             style={{
-                                borderBottom: "solid 3px #0276FD",
+                                borderBottom: "solid 3px #00A901",
                                 width: "3rem"
                             }}
                         ></Box>

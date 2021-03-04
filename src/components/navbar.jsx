@@ -58,7 +58,7 @@ const Navbar = () => {
                                 <Link href="#aboutme"><Option className={ navbar ? 'optionhover' : null }>About Me</Option></Link>
                                 <Link href="#technologies"><Option className={ navbar ? 'optionhover' : null }>Technologies</Option></Link>
                                 <Link href="#resume"><Option className={ navbar ? 'optionhover' : null }>Download CV</Option></Link>
-                                <Link href="#projects"><Option className={ navbar ? 'optionhover' : null }>Proyects</Option></Link>
+                                <Link href="#projects"><Option className={ navbar ? 'optionhover' : null }>Projects</Option></Link>
                                 <Link href="#contactme"><Option className={ navbar ? 'optionhover' : null }>Contact</Option></Link>
                             </Sidebar>
 
@@ -69,7 +69,7 @@ const Navbar = () => {
                                 <Link href="#aboutme"><Option className={ navbar ? 'optionhover' : null }>About Me</Option></Link>
                                 <Link href="#technologies"><Option className={ navbar ? 'optionhover' : null }>Technologies</Option></Link>
                                 <Link href="#resume"><Option className={ navbar ? 'optionhover' : null }>Download CV</Option></Link>
-                                <Link href="#projects"><Option className={ navbar ? 'optionhover' : null }>Proyects</Option></Link>
+                                <Link href="#projects"><Option className={ navbar ? 'optionhover' : null }>Projects</Option></Link>
                                 <Link href="#contactme"><Option className={ navbar ? 'optionhover' : null }>Contact</Option></Link>
                             </Menu>
                         }    

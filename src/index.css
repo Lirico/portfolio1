@@ -3,18 +3,23 @@ body {
   font-family: 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; 
-}
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+  }
+  
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
+.titlefonts {
+  font-family: 'Press Start 2P', sans-serif;
+}
+
 /* Scrolling navbar background */
 .bgactive {
-  background-color: #0276FD;
+  background-color: #00A901;
   transition: all 0.3s ease;
 }
 

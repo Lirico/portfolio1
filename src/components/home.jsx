@@ -28,19 +28,19 @@ const Home = () => {
                 <Grid container>
                     <Grid container item sm={6} alignItems="center" style={{textTransform:"uppercase"}}>
                         <Box pl={5} pr={5}>
-                            <Typography variant="h4" component="h1"
+                            <h1 
                                 className="titlefonts"
-                            >
-                                Matías Domínguez                           
-                            </Typography>
+                            >     
+                                Matias Dominguez                           
+                            </h1>
                             <Box 
                                 mb={3} mt={3}
                                 style={{
-                                    borderBottom: "solid 0.3rem #0276FD",
+                                    borderBottom: "solid 0.3rem #00A901",
                                     width: "5rem"
                                 }}
                             ></Box>
-                            <Typography variant="h5" component="h1" style={{textTransform:"uppercase"}}>
+                            <Typography variant="h5" component="h1" style={{textTransform:"uppercase", fontWeight: "bold"}}>
                                 Front-end Developer                          
                             </Typography>
                             <Link href="#contactme"><Button>Hire me!</Button></Link>

@@ -6,7 +6,7 @@ const Menu = styles.div`
     
     @media screen and (max-width: 768px) {
         flex-direction: column;
-        background-color: #0276FD;
+        background-color: #2C4676;
         position: fixed;
         height: 100%;
         width: 100%;

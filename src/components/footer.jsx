@@ -21,7 +21,7 @@ const FooterIcons = styled.img`
 
 const Footer = () => {
     return ( 
-        <Box pt={7} style={{backgroundColor: "#0276FD"}}>
+        <Box pt={7} style={{backgroundColor: "#00A901"}}>
             <Grid container>
                 <Grid container item sm={4} justify="center">
                     <Box flexDirection="column" mb={6}>
