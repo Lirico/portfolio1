@@ -1,7 +1,7 @@
 import React from 'react';
-import Button from './ui/button';
+import ButtonForm from './ui/buttonform';
 
-import useForm, { reset } from "./contact/useForm";
+import useForm from "../components/contact/useForm";
 import validate from "./contact/validate";
 import Swal from "sweetalert2";
 import emailjs from "emailjs-com";
@@ -11,7 +11,7 @@ import {
     Box,
     Grid,
     Typography
-} from '@material-ui/core'
+} from '@material-ui/core';
 
 export const Error = styled.p`
   margin-bottom: 0.5em;
@@ -33,7 +33,6 @@ const Toast = Swal.mixin({
   });
 
 const ContactMe = () => {
-
     const submit = () => {
         let templateParams = {
           from_name: values.email,
@@ -43,17 +42,17 @@ const ContactMe = () => {
         };
         emailjs
           .send(
-            "service_oaz8vle",
-            "template_wo294ol",
+            "gmail",
+            "template_giaqfsr",
             templateParams,
-            "user_Ci5YDaJ2f4SFSXgKJX3C2"
+            "user_yZyxeasxVmTcG19Dy1H5F"
           )
           .then(
             function (response) {
               console.log("SUCCESS!", response.status, response.text);
               Toast.fire({
                 icon: "success",
-                title: "The data has been sent. Thank you!",
+                title: "Se enviaron los datos. Muchas gracias!",
               });
             },
             function (error) {
@@ -66,9 +65,6 @@ const ContactMe = () => {
         submit,
         validate
       );
-    
-      const email = values.email;
-      const comment = values.msj;
 
     return ( 
         <Box pt={10} pb={8} pl={2} pr={4} mb={8} ml={5} mr={5} id="contactme" style={{backgroundColor: "#F7F7F7", borderRadius: "6px"}}>
@@ -129,8 +125,8 @@ const ContactMe = () => {
                                         width: "100%",
                                     }}
                                 />
-                                {errors.name && <Error>{errors.name}</Error>}
                             </Box>
+                            {errors.name && <Error>{errors.name}</Error>}
                             <Box>
                                 <input 
                                     type="text"
@@ -146,8 +142,8 @@ const ContactMe = () => {
                                         width: "100%"
                                     }}
                                 />
-                                {errors.email && <Error>{errors.email}</Error>}
                             </Box>
+                            {errors.email && <Error>{errors.email}</Error>}
                         </Box>
                         <Box mb={-2}>
                             <textarea
@@ -164,12 +160,11 @@ const ContactMe = () => {
                                     width: "100%"
                                 }}
                             ></textarea>
-                            {errors.msj && <Error>{errors.msj}</Error>}
                         </Box>
+                        {errors.msj && <Error>{errors.msj}</Error>}
                         <Box display="flex" justifyContent="flex-end">
-                            <Button
+                            <ButtonForm
                                 type="submit"
-                                value="Enviar"
                                 style={{ 
                                     fontWeight: "bold",
                                     fontSize: "0.8rem",
@@ -178,9 +173,9 @@ const ContactMe = () => {
                                     paddingBottom: "8px",
                                     textAlign: "center", 
                                     textTransform: "uppercase",
-                                    width: "50%"
-                                }}
-                            >Send message</Button>
+                                    width: "60%"
+                                    }}
+                            >Send message</ButtonForm>
                         </Box>
                     </form>
                 </Grid>
