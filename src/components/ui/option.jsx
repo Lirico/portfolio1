@@ -9,7 +9,7 @@ const Option = styles.p`
     transition: color 0.3s ease;
 
     :hover {
-        color: #0276FD; 
+        color: #00A901; 
     }
 `;
 

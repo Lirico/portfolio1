@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-const Button = styled.a`
+const Button = styled.p`
     display: inline-block;
     background: #00A901;
     color: #fff;
