@@ -52,7 +52,7 @@ const ContactMe = () => {
               console.log("SUCCESS!", response.status, response.text);
               Toast.fire({
                 icon: "success",
-                title: "Se enviaron los datos. Muchas gracias!",
+                title: "The data has been sent. Thanks a lot!",
               });
             },
             function (error) {
