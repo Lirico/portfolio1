@@ -27,6 +27,7 @@ const IconSize = styled.img`
     width: 3rem;
     vertical-align: middle;
     margin-right: 0.5rem;
+    margin-bottom: 0.3rem;
 `;
 
 const Technologies = () => {
@@ -34,7 +35,7 @@ const Technologies = () => {
         <Box mb={12} id="technologies">
             <Box display="flex" justifyContent="center" alignItems="center">
                 <Typography style={{  borderBottom: "solid 3px #00A901", width: "1.5rem"}}></Typography>
-                <Typography variant="h4" component="h2" align="center" style={{margin:"0 3px 0 3px", fontWeight: "bold"}}>
+                <Typography variant="h4" component="h2" align="center" style={{margin:"0.5rem", fontWeight: "bold"}}>
                     Technologies
                 </Typography>
                 <Typography style={{  borderBottom: "solid 3px #00A901", width: "1.5rem"}}></Typography>

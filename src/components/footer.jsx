@@ -34,7 +34,7 @@ const Footer = () => {
                             }}
                         >Location</Typography>
                         <Link href="https://www.google.com/maps/place/Hurlingham,+Provincia+de+Buenos+Aires/@-34.5910172,-58.6557366,14z/data=!3m1!4b1!4m5!3m4!1s0x95bcb9254c083df5:0x87b633dca0937bac!8m2!3d-34.589571!4d-58.6275502">
-                            <Typography component="p" style={{color: "#fff"}}>Hurlingham Bs.As.</Typography>
+                            <Typography component="p" style={{color: "#fff"}}>Hurlingham, Bs.As., Argentina</Typography>
                         </Link>
                     </Box>
                 </Grid>

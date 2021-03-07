@@ -16,7 +16,7 @@ const AboutMe = () => {
                     <Typography style={{  borderBottom: "solid 3px #00A901", width: "1.5rem"}}></Typography> 
                     <Typography variant="h4" component="h2" align="center" 
                         style={{
-                            margin:"0 3px 0 3px", 
+                            margin:"0.5rem", 
                             fontWeight: "bold"
                         }}>
                         About Me
